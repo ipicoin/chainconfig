@@ -1,0 +1,29 @@
+{
+	"name": "chain",
+	"version": "1.0.0",
+	"description": "declaration of chain",
+	"keywords": [
+		"IPI"
+	],
+	"homepage": "https://github.com/ipicoin/chainconfig#readme",
+	"bugs": {
+		"url": "https://github.com/ipicoin/chainconfig/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ipicoin/chainconfig.git"
+	},
+	"license": "ISC",
+	"author": "IPI DAO",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "npm test",
+		"prepare": "husky"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.4.16",
+		"husky": "^9.1.7",
+		"octokit": "^5.0.5"
+	}
+}

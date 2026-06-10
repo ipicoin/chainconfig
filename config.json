@@ -1,0 +1,37 @@
+{
+	"chainId": "ipi-mainnet-2",
+	"chainName": "IPI Mainnet 2",
+	"rpc": "https://ipicoin.eu/rpc",
+	"rest": "https://ipicoin.eu/api",
+	"bip44": {
+		"coinType": 118
+	},
+	"bech32Config": {
+		"bech32PrefixAccAddr": "ipi",
+		"bech32PrefixAccPub": "ipipub",
+		"bech32PrefixValAddr": "ipivaloper",
+		"bech32PrefixValPub": "ipivaloperpub",
+		"bech32PrefixConsAddr": "ipivalcons",
+		"bech32PrefixConsPub": "ipivalconspub"
+	},
+	"currencies": [
+		{
+			"coinDenom": "IPI",
+			"coinMinimalDenom": "nipi",
+			"coinDecimals": 9
+		}
+	],
+	"feeCurrencies": [
+		{
+			"coinDenom": "IPI",
+			"coinMinimalDenom": "nipi",
+			"coinDecimals": 9
+		}
+	],
+	"stakeCurrency": {
+		"coinDenom": "IPI",
+		"coinMinimalDenom": "nipi",
+		"coinDecimals": 9
+	},
+	"features": ["stargate", "cosmwasm"]
+}

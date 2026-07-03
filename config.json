@@ -6,6 +6,7 @@
 	"bip44": {
 		"coinType": 118
 	},
+	"slip44": 118,
 	"bech32Config": {
 		"bech32PrefixAccAddr": "ipi",
 		"bech32PrefixAccPub": "ipipub",
@@ -14,6 +15,7 @@
 		"bech32PrefixConsAddr": "ipivalcons",
 		"bech32PrefixConsPub": "ipivalconspub"
 	},
+	"bech32Prefix": "ipi",
 	"currencies": [
 		{
 			"coinDenom": "IPI",
@@ -25,7 +27,12 @@
 		{
 			"coinDenom": "IPI",
 			"coinMinimalDenom": "nipi",
-			"coinDecimals": 9
+			"coinDecimals": 9,
+			"gasPriceStep": {
+				"low": 0.01,
+				"average": 0.025,
+				"high": 0.04
+			}
 		}
 	],
 	"stakeCurrency": {
@@ -33,5 +40,20 @@
 		"coinMinimalDenom": "nipi",
 		"coinDecimals": 9
 	},
-	"features": ["stargate", "cosmwasm"]
+	"features": ["stargate", "cosmwasm"],
+	"endpoints": {
+		"rpc": "https://ipicoin.eu/rpc",
+		"rest": "https://ipicoin.eu/api",
+		"grpc": "https://ipicoin.eu:9090"
+	},
+	"blockTime": 6,
+	"explorer": "https://ipicoin.eu",
+	"networks": {
+		"mainnet": {
+			"chainId": "ipi-mainnet-2"
+		},
+		"testnet": {
+			"chainId": "ipi-testnet-1"
+		}
+	}
 }

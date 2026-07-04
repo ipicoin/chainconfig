@@ -3,6 +3,7 @@
 	"chainName": "IPI Mainnet 2",
 	"rpc": "https://ipicoin.eu/rpc",
 	"rest": "https://ipicoin.eu/api",
+	"grpc": "https://ipicoin.eu:9090",
 	"bip44": {
 		"coinType": 118
 	},
@@ -41,11 +42,6 @@
 		"coinDecimals": 9
 	},
 	"features": ["stargate", "cosmwasm"],
-	"endpoints": {
-		"rpc": "https://ipicoin.eu/rpc",
-		"rest": "https://ipicoin.eu/api",
-		"grpc": "https://ipicoin.eu:9090"
-	},
 	"blockTime": 6,
 	"explorer": "https://ipicoin.eu",
 	"networks": {

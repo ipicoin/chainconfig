@@ -1,2 +1,1 @@
-npx biome check --write
-git add .
+npm test

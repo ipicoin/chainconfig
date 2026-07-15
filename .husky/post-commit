@@ -1,4 +1,1 @@
-#git push --all
-
-git pull
-git merge
+# Intentionally empty. Commits must never pull, merge, or push automatically.

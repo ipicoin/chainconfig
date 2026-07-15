@@ -1,5 +1,4 @@
-// on Apache license 2.0 @ IPI DAO 2026
-// maintainership by Sett Sarverott
+// SPDX-License-Identifier: ISC
 
 import chainConfiguration from "./config.json" with {type: 'json'};
 

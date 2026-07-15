@@ -16,9 +16,12 @@
 	"license": "ISC",
 	"author": "IPI contributors",
 	"type": "module",
+	"engines": {
+		"node": ">=22"
+	},
 	"main": "index.js",
 	"scripts": {
-		"test": "npm test",
+		"test": "node --test",
 		"prepare": "husky"
 	},
 	"devDependencies": {

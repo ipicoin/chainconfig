@@ -1,7 +1,7 @@
 {
 	"name": "chain",
 	"version": "1.39.0",
-	"description": "declaration of chain",
+	"description": "Legacy IPI Cosmos-wallet chain configuration pending canonical verification.",
 	"keywords": [
 		"IPI"
 	],
@@ -14,7 +14,7 @@
 		"url": "git+https://github.com/ipicoin/chainconfig.git"
 	},
 	"license": "ISC",
-	"author": "IPI DAO",
+	"author": "IPI contributors",
 	"type": "module",
 	"main": "index.js",
 	"scripts": {
